@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #121B2A;
+}
+/* header start*/
+.header{
+	background-color: #121B2A;
+	padding: 15px 0;
+	box-shadow: 5px 5px 15px #D61212 /* #030000 */;
+
+} 
+.wrapper{
+	width: 80%;
+	/* height: 100px; */
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+.logo{
+	float: left;
+	width: 20%;
+
+	}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%; 
+	float: right;
+	margin-top: 50px;
+	}
+ul {
+	
+	list-style-type: none; 
+	margin:0; 
+	padding:0; 
+	overflow: hidden;
+}
+
+li { 
+	float: left;
+}
+
+li a { 
+	display: block; 
+	color: white; 
+	text-align: center; 
+	padding: 14px 16px; 
+	text-decoration: none; 
+	transition: 1s;
+}
+li a:hover {
+	color: #4E75CD;
+}
+/* heading end */
+.bannar{
+	background-image: url(../img/banar1.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px 0 100px 0;
+}
+.bannar_content{
+	width: 50%;
+	
+}
+.bannar h1{
+	color: white;
+	font-size: 45px;
+	margin: 0;
+}.bannar h2{
+	color: #14719C;
+	font-size: 45px;
+	margin: 0;
+}
+.bannar p{
+	color:white;
+	font-size: 18px;
+}
+button{
+	padding: 20px;
+}
+.service{
+	margin-top: 10px;
+}
+
+.service1{
+	width: 30%; 
+	float: left;
+	padding: 15px 10px 25px 26px;
+	border-right: 1px solid white;
+}
+.service2{
+	width: 30%; 
+	float: left;
+	padding: 15px 10px 25px 26px;
+}
+.top{
+	overflow: hidden;
+}
+
+.t-img{
+	width: 20%; 
+	float: left;
+	height: 80px;
+}
+
+.t-img img{}
+.text{ width: 70%; 
+	float: left; 
+	margin-top: 20px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	}
+.text1{ width: 70%; 
+	float: left; 
+	margin-top: 50px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	}
+.h2{
+	font-family: sans-serif; 
+	font-weight: 400; 
+	font-size: 28px; 
+	color: white; 
+	margin:0;
+}
+.text h2{ 
+	color: #4E75CD;
+}
+
+span{
+	color: #4E75CD;
+}
+.bottom {
+	font-family: sans-serif; 
+	color: white;
+
+}
+p{
+	text-align: justify;
+}
